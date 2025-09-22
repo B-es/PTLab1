@@ -19,6 +19,7 @@ def print_data(students, rating, count_debt):
     print("Rating:", rating)
     print("Debt Count:", count_debt)
 
+
 def main():
     path = get_path_from_arguments(sys.argv[1:])
     if "json" in path:

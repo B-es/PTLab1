@@ -25,8 +25,7 @@ class TestCalcDebt:
 
         return data, count_debt
 
-    def test_init_calc_debt(self, input_data: tuple[DataType,
-                                                      int]) -> None:
+    def test_init_calc_debt(self, input_data: tuple[DataType, int]) -> None:
         calc_rating = CalcDebt(input_data[0])
         assert input_data[0] == calc_rating.data
 
